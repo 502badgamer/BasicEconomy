@@ -1,0 +1,16 @@
+name: BasicEconomy
+main: main.java.gamer.basiceconomy.Main
+version: 0.0.1
+author: 502BadGamer
+commands:
+   beco:
+      description: Administrative command for BasicEconomy
+      usage: /<command> args
+      aliases: basiceconomy
+   pay:
+      description: Pay people money
+      usage: /<command> player_name amount
+   balance:
+      description: Tells you your current balance
+      usage: /<command>
+      aliases: [money,bal]
